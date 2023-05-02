@@ -1,0 +1,71 @@
+[ 
+	{
+		"id" : 1001,
+		"name" : "Courier Inc",
+		"serviceType": "Immediate",
+		"serviceDescriptor":{
+			"serviceName":"1-day delivery",
+			"description":"Intra-City delivery within 24 hours"
+		},
+		"weightLimit": 2000, 
+		"volumeLimit": 1000000,
+		"valueLimit" : 10000,
+		"price" : 50,
+		"objectType":["electronics","glass","freezed food"],
+		"rating":"3",
+		"address":
+		{
+		"street":"Jayanagar 4th Block",
+		"city":"Bengaluru",
+		"area_code":"560076",
+		"state":"KA"
+		},
+		"logo":"https://img.freepik.com/free-vector/butterfly-logo-colorful-gradient-illustrations_483537-972.jpg"
+	},
+	{
+		"id" : 1002,
+		"name" : "New Courier Inc",
+		"serviceType": "Immediate",
+		"serviceDescriptor":{
+			"serviceName":"2-day delivery",
+			"description":"Inter-City delivery within 2 days"
+		},
+		"weightLimit": 20000, 
+		"volumeLimit": 10000000,
+		"valueLimit" : 100000,
+		"price" : 500,
+		"objectType":["electronics","glass","freezed food"],
+		"rating":"4",
+		"address":
+		{
+		"street":"Jayanagar 4th Block",
+		"city":"Bengaluru",
+		"area_code":"560076",
+		"state":"KA"
+		},
+		"logo":"https://img.freepik.com/free-vector/butterfly-logo-colorful-gradient-illustrations_483537-972.jpg"
+	},
+	{
+		"id" : 1003,
+		"name" : "Del Inc",
+		"serviceType": "Immediate",
+		"serviceDescriptor":{
+			"serviceName":"3-day delivery",
+			"description":"Intra-City delivery within 24 hours"
+		},
+		"weightLimit": 2000, 
+		"volumeLimit": 1000000,
+		"valueLimit" : 10000,
+		"price" : 500,
+		"objectType":["electronics","glass","freezed food"],
+		"rating":"3",
+		"address":
+		{
+		"street":"Jayanagar 4th Block",
+		"city":"Bengaluru",
+		"area_code":"560076",
+		"state":"KA"
+		},
+		"logo":"https://img.freepik.com/free-vector/butterfly-logo-colorful-gradient-illustrations_483537-972.jpg"
+	}
+]
