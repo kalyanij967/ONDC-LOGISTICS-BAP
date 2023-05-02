@@ -1,0 +1,34 @@
+.mt-3{
+    margin: auto;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.card-img-top {
+    object-fit: cover;
+    overflow: hidden;
+}
+.image
+{
+    height: 10em;
+    width: 10em;
+}
+.card-rows {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-rows:hover{
+    /* background-color: rgba(255, 248, 220, 1); */
+    border: solid skyblue;
+}
+.card-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: none !important;
+}
